@@ -17,7 +17,6 @@ import Texts from "@/components/product/info/texts/texts"
 import {
   product,
   con,
-  center
 } from "./product.module.scss"
 
 import "./fix.css"
@@ -34,7 +33,6 @@ import AddToCart from "@/components/product/info/addToCart/addToCart"
 export default function Product() {
 
   const products = useContext(Products);
-  const hoverColor = window.innerWidth > 767.9 ? "#ff7d1a" : "#000000";
 
   const [IdSelected, setIdSelected] = useState(1);
   const [image, setImage] = useState(0);

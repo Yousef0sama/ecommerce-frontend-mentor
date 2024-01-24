@@ -25,7 +25,6 @@ import {
   icon,
   logo,
   img,
-  cart,
   notf,
   link,
   menu
