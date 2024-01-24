@@ -16,7 +16,8 @@
     "react-dom": "^18",
     "react-typed": "^1.2.0",
     "sass": "^1.69.0",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "styled-jsx": "^5.1.2"
   },
   "devDependencies": {
     "eslint": "^8",
