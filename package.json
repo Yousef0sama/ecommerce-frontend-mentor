@@ -14,10 +14,8 @@
     "next": "^14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-typed": "^1.2.0",
     "sass": "^1.69.0",
-    "scss": "^0.2.4",
-    "styled-jsx": "^5.1.2"
+    "scss": "^0.2.4"
   },
   "devDependencies": {
     "eslint": "^8",
