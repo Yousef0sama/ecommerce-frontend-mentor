@@ -44,13 +44,13 @@ export default function Product() {
   const colorHandle = () => {
     switch (element) {
       case "leftIn":
-        setLeftArrowColor(hoverColor);
+        setLeftArrowColor("#ff7d1a");
         break;
       case "leftOut":
         setLeftArrowColor("#000000");
         break;
       case "rightIn":
-        setRightArrowColor(hoverColor);
+        setRightArrowColor("#ff7d1a");
         break;
       case "rightOut":
         setRightArrowColor("#000000")
