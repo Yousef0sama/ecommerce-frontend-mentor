@@ -69,7 +69,7 @@ export default function Cart({showed, products, setCart}) {
                     <span> {count} </span>
                     <b> &nbsp; ${ price * count } </b>
                   </span>
-                </div> 
+                </div>
                 <div className={`col-2 ${del}`} onMouseEnter={() => mouseInHandle(i)} onMouseLeave={mouseOutHandle} onClick={() => remove(id)}>
                   <Delete color={index === i ? "#000000" : "#C3CAD9" } />
                 </div>

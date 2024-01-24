@@ -47,15 +47,7 @@ export default function Home() {
     }
   ]);
 
-  const [cart, setCart] = useState([
-    // {
-    //   id: 2,
-    //   name: "xx",
-    //   img: "xxxxxxx",
-    //   price: 1321,
-    //   count: 2,
-    // }
-  ]);
+  const [cart, setCart] = useState([]);
 
   return (
     <Products.Provider value={{products, cart, setCart}}>

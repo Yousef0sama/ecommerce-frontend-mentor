@@ -64,7 +64,6 @@ export default function Product() {
     }
   }
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(colorHandle, [element]);
 
 
