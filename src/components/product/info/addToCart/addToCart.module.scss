@@ -1,0 +1,41 @@
+@import "../../../../assests/css/vars.scss";
+
+.button {
+
+  button {
+
+    background-color: $Orange;
+    color: $White;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: $HoverOrange;
+    }
+
+  }
+
+}
+
+.Count {
+
+  background-color: $LightGrayishBlue;
+  border-radius: 5px;
+  margin-left: 5px !important;
+
+  & > * {
+    padding-left: 0px !important;
+  }
+
+}
+
+@media only screen and (max-width: 767.9px) {
+
+  .button, .Count {
+
+    width: 90%;
+
+  }
+
+}

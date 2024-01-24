@@ -1,0 +1,40 @@
+@import "../../../../assests/css/vars.scss";
+
+.thum {
+
+  padding: 15px 10px;
+
+  > div {
+
+    padding: 0px 10px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    img:hover {
+      opacity: 0.5;
+    }
+
+    span {
+      background-color: $White;
+      border-radius: 10px;
+    }
+
+    .selected {
+
+      border: $Orange 2px solid;
+
+      img {
+        opacity: 0.25;
+        cursor: auto;
+      }
+
+    }
+
+  }
+
+}

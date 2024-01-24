@@ -1,0 +1,29 @@
+@import "../../../../assests/css/vars.scss";
+
+.company {
+  font-size: 15px;
+  color: $Orange;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.descrebtion {
+  color: $DarkGrayishBlue;
+  font-size: 15px;
+}
+
+.discount {
+  background-color: $PaleOrange;
+  color: $Orange;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: -10px !important;
+  position: relative;
+  bottom: 3px;
+  border-radius: 5px;
+  padding: 2.5px 10px;
+}
+
+.disabled {
+  color: $GrayishBlue;
+}
