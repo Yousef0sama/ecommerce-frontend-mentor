@@ -11,7 +11,7 @@ import { useContext, useEffect, useState, createContext } from "react"
 
 //  import pages
 
-import Product from "@/pages/product"
+import Product from "@/paages/product"
 
 export const Products = createContext();
 
